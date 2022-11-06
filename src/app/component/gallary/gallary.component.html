@@ -1,0 +1,11 @@
+<div class="container">
+    <ul class="list-group" *ngFor="let data of showTitle ">
+        <li class="list-group-item">
+            <input class="form-check-input me-4" type="checkbox" value="" id="firstCheckbox">
+            <label for="firstCheckbox"> {{data.title}}</label>
+        </li>
+    </ul>
+    <div class="home-button pt-3">
+        <a href="#" [routerLink]="['/']" class="btn btn-primary">Home</a>
+    </div>
+</div>

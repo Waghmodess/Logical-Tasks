@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3" *ngFor="let c of showTitle">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">{{c.title}}</h4>
+                    <p lass="card-text">{{c.body}}</p>
+                    <div class="card-button">
+                        <a href="#" [routerLink]="['/gallary']" class="btn btn-primary">To-Dos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

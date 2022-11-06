@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3" *ngFor="let c of showTitle">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">{{c.title}}</h4>
+                    <h6 lass="card-text">{{c.body}}</h6>
+                    <div class="card-button">
+                        <a href="#" [routerLink]="['/comment']" class="btn btn-primary">comments</a>
+                        <!-- <button mat-button (click)="openDialog()">Open dialog</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
