@@ -8,7 +8,6 @@ import { PostComponent } from './component/post/post.component';
 import { CommentComponent } from './component/comment/comment.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { SachinComponent } from './component/sachin/sachin.component';
 import { GallaryComponent } from './component/gallary/gallary.component';
 import { AlbumsComponent } from './component/albums/albums.component';
 
@@ -18,7 +17,6 @@ import { AlbumsComponent } from './component/albums/albums.component';
     HomeComponent,
     PostComponent,
     CommentComponent,
-    SachinComponent,
     GallaryComponent,
     AlbumsComponent
   ],
