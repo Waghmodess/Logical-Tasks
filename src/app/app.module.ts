@@ -10,6 +10,9 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { GallaryComponent } from './component/gallary/gallary.component';
 import { AlbumsComponent } from './component/albums/albums.component';
+import { ParentComponent } from './component/inter-comp-communication/parent/parent.component';
+import { ChildComponent } from './component/inter-comp-communication/child/child.component';
+import { HeaderComponent } from './component/header/header.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { AlbumsComponent } from './component/albums/albums.component';
     PostComponent,
     CommentComponent,
     GallaryComponent,
-    AlbumsComponent
+    AlbumsComponent,
+    ParentComponent,
+    ChildComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
