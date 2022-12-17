@@ -11,7 +11,7 @@ const routes: Routes = [
   { path: "post", component: PostComponent },
   { path: "home", component: HomeComponent },
   { path: "comment", component: CommentComponent },
-  { path: "gallary", component: GallaryComponent },
+  { path: "to-dos", component: GallaryComponent },
   { path: "albums", component: AlbumsComponent },
 
 ];
